@@ -19,6 +19,7 @@ public class LoadController {
 	@GetMapping("/{id}")
 	public LoadData getLoadReport(@PathVariable Long id) {
 		LoadData data=service.getLoadReport(id);
+        
 		return data;
 	}
 
