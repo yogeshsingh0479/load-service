@@ -23,6 +23,4 @@ public class LoadController {
 		return data;
 	}
 
-    //this is main 
-
 }
