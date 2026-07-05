@@ -17,6 +17,7 @@ public class LoadController {
 	private LoadService service;
 	
 	@GetMapping("/{id}")
+    /*here i have added comment*/
 	public LoadData getLoadReport(@PathVariable Long id) {
 		LoadData data=service.getLoadReport(id);
 		return data;
